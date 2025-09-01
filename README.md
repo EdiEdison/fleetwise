@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# FleetWise Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive landing page for FleetWise - an African-based fleet management system designed to help businesses manage their fleets efficiently.
+
+## Features
+
+- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
+- **Modern UI**: Clean and professional design with FleetWise branding
+- **Interactive Components**: 
+  - Hero section with call-to-action buttons
+  - About section with fleet management information
+  - Testimonials carousel
+  - Pricing plans (Core & Advanced)
+  - Contact form
+- **Mobile-First**: Hamburger menu and mobile-optimized layouts
+- **Smooth Animations**: Fade-in animations for better user experience
+
+## Technology Stack
+
+- **React**: Frontend framework
+- **CSS Modules**: Component-scoped styling
+- **Responsive Design**: Mobile-first approach with media queries
+- **Modern CSS**: Flexbox, Grid, and CSS custom properties
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/EdiEdison/fleetwise.git
+cd fleetwise
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+src/
+├── components/
+│   ├── About/           # About section component
+│   ├── AnimatedSection/ # Animation wrapper
+│   ├── CTA/            # Call-to-action component
+│   ├── Contact/        # Contact form
+│   ├── DashboardImage/ # Dashboard showcase
+│   ├── Footer/         # Footer component
+│   ├── Header/         # Navigation header
+│   ├── Hero/           # Hero section
+│   ├── Pricing/        # Pricing plans
+│   ├── Testimonials/   # Customer testimonials
+│   └── TrustedBy/      # Trusted by section
+├── styles/
+│   ├── main.css        # Global styles
+│   └── variables.css   # CSS custom properties
+└── assets/
+    └── images/         # Project images
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+The app can be deployed to any static hosting service:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Build the project:
+```bash
+npm run build
+```
 
-### `npm run build`
+2. Deploy the `build` folder to your hosting service.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For questions or support, please contact the FleetWise team.

@@ -1,0 +1,97 @@
+.footer {
+  background-color: #F6F8FC;
+  padding: 5rem 0 2rem;
+  text-align: center;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 3rem 1rem 2rem;
+  }
+  
+  .logo {
+    max-width: 120px;
+  }
+  
+  .socialIcons {
+    gap: 1rem;
+  }
+  
+  .iconLink {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2rem 0.75rem 1.5rem;
+  }
+  
+  .logo {
+    max-width: 100px;
+  }
+  
+  .socialText {
+    font-size: 0.9rem;
+  }
+  
+  .socialIcons {
+    gap: 0.75rem;
+  }
+  
+  .iconLink {
+    font-size: 1.1rem;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+.logoContainer {
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.socialText {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.iconLink {
+  color: var(--color-dark-blue);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.iconLink:hover {
+  color: #003366;
+}
+
+.divider {
+  width: 100px;
+  height: 2px;
+  background-color: var(--color-dark-blue);
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #888;
+}

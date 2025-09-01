@@ -1,0 +1,10 @@
+:root {
+  /* Font Family */
+  --font-poppins: 'Poppins', sans-serif;
+
+  /* Colors */
+  --color-dark-blue: #001f3f;
+  --color-primary-blue: #007bff;
+  --color-white: #fff;
+  --color-text: #333;
+}

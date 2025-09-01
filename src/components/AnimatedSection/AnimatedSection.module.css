@@ -1,0 +1,20 @@
+.animatedWrapper {
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fadeIn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slideInLeft {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slideInRight {
+  opacity: 1;
+  transform: translateX(0);
+}
